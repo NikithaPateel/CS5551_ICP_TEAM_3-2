@@ -1,0 +1,16 @@
+.nutrition{
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+.nutritiondata{
+    margin: auto;
+    width: 60%;
+    Height:auto;
+    padding: 10px;
+}
+.center{
+    margin: auto;
+    Height:auto;
+    padding: 10px;
+}
