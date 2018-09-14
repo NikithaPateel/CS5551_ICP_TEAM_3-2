@@ -1,0 +1,7 @@
+#Fri Sep 14 00:07:52 CDT 2018
+base.0=C\:\\Users\\nikit\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_26c5bbe66d3a0cb78558d92505c56299454a6520
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\nikit\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b148ea50deb1981dc8f0859495c4c48d827efe22\\classes.dex
+base.1=C\:\\Users\\nikit\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b148ea50deb1981dc8f0859495c4c48d827efe22
+file.0=C\:\\Users\\nikit\\Downloads\\TranslateApp\\TranslateApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_26c5bbe66d3a0cb78558d92505c56299454a6520\\classes.dex

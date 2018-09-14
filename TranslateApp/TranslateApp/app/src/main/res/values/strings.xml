@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Translate App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_translate">TranslateActivity</string>
+    <string name = "language_array"></string>
+    <string-array name="language">
+        <item>af:Afrikaans</item>
+        <item>sq:Albanian</item>
+        <item>am:Amharic</item>
+        <item>ar:Arabic</item>
+        <item>hy:Armenian</item>
+        <item>az:Azerbaijani</item>
+        <item>ba:Bashkir</item>
+        <item>eu:Basque</item>
+        <item>be:Belarusian</item>
+        <item>bn:Bengali</item>
+        <item>bs:Bosnian</item>
+        <item>bg:Bulgarian</item>
+        <item>my:Burmese</item>
+        <item>ca:Catalan</item>
+        <item>ceb:Cebuano</item>
+        <item>zh:Chinese</item>
+        <item>hr:Croatian</item>
+        <item>cs:Czech</item>
+        <item>da:Danish</item>
+        <item>nl:Dutch</item>
+        <!--<item>sjn</item>
+        <item>emj</item>
+        <item>en</item>
+        <item>eo</item>
+        <item>et</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gl</item>
+        <item>ka</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>ht</item>
+        <item>he</item>
+        <item>mrj</item>-->
+    </string-array>
+</resources>
