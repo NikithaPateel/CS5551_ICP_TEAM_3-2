@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OCR</title>
+    <script src="tessreact.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/naptha/tesseract.js/0.2.0/dist/tesseract.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link ref="styling.css">
+    <style>
+        body {
+            background: darkslateblue;
+        }
+        input{
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+<p><br><br>
+<div class="style text-center">
+    <h1 style ="color:white">Optical Character Recognition</h1>
+<input type="text" id="url" placeholder="Image URL" align="center"  />
+<input type="button" class ="style" id="go_button" value="Get Text" onclick="runOCR()"/>
+<div class="result" style ="color: white" id="ocr_results"> </div>
+<div id="ocr_status"> </div>
+</div>
+<script>
+    function runOCR() {
+        url =document.getElementById("url").value;
+        Tesseract.recognize(url)
+            .then(function(result) {
+                document.getElementById("ocr_results")
+                    .innerText = result.text;
+            }).progress(function(result) {
+            document.getElementById("ocr_status")
+                .innerText = result["status"] + " (" +
+                (result["progress"] * 100) + "%)";
+        });
+    }
+</script>
+</body>
+</html>
